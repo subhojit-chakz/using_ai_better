@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Using AI Better — logging and token distribution</title>
+<style>
+body{margin:0;background:#0b1220;color:#eff5ff;font:18px/1.6 system-ui,sans-serif}main{max-width:1280px;margin:auto;padding:32px 20px}h1{font-size:30px}h2{font-size:24px;margin-top:40px}p{color:#a9bad1}video,img{display:block;width:100%;height:auto;border-radius:12px}a{color:#69d5eb}small{color:#a9bad1}
+</style>
+<main>
+<h1>From agent activity to weekly insight</h1>
+<p>Linux code and tests, cloud data processing and train/eval runs, Windows knowledge work, local agent logs, and daily/weekly statistics.</p>
+<video controls autoplay muted loop playsinline poster="animation-poster.png" aria-label="Simulation of Linux coding and tests, cloud deployment and train/eval, Windows planning, slides, email and dashboard analysis, then .claude and .codex log collection and daily and weekly reporting">
+<source src="logging-daily-weekly.mp4?v=3" type="video/mp4">
+<track kind="captions" src="workflow-captions.vtt?v=3" srclang="en" label="English">
+Your browser does not support embedded video. <a href="logging-daily-weekly.mp4">Open the MP4</a>.
+</video>
+<p><a href="logging-daily-weekly.gif">Looping GIF</a> · <a href="logging-daily-weekly.mp4">MP4 video</a></p>
+<h2>Token distribution across projects and models</h2>
+<img src="project-token-distribution.png?v=3" alt="Token distribution: Research and planning and Data analysis each use 1.1 million tokens; Software development 800,000; Training and evaluation 600,000; Prototyping 300,000; Reports and presentations 200,000. Models are GPT-6-Astra, GPT-6.1-Sol, Claude Sonnet5.5, Claude Opus5.5, and self-hosted Qwen3.8-27B and Kimi K3 used for Prototyping.">
+<p><a href="example-token-data.csv">Example data (CSV)</a> · <a href="render_media.py">Editable rendering source</a></p>
+</main>
+<script>if(matchMedia('(prefers-reduced-motion: reduce)').matches){const v=document.querySelector('video');v.autoplay=false;v.pause();}</script>
+</html>

@@ -1,0 +1,22 @@
+# Private runtime data and credentials
+.env
+.env.*
+!.env.example
+secrets/
+runtime/
+spool/
+logs/
+reports/
+backups/
+*.sqlite
+*.sqlite-*
+*.db
+*.pem
+*.key
+__pycache__/
+.venv/
+
+# Large cloud artifacts
+datasets/
+checkpoints/
+artifacts/
