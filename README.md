@@ -15,8 +15,7 @@ Start with one Windows machine, one Linux machine, and one project. Validate usa
 
 ## Visual walkthrough
 
-- [Looping animation and diagram](media/index.html): local viewer with a looping MP4 and a project-by-model token diagram.
-- [Media details and editable source](media/README.md): formats, sample data, and rendering instructions.
+[Open the visual walkthrough](media/index.html): a self-contained page with the looping animation and project-by-model token diagram. Download or clone the repository, then open `media/index.html` in a browser; no server or additional files are needed.
 
 The visuals use illustrative data; they do not show collected account activity.
 
