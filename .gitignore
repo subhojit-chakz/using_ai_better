@@ -20,3 +20,7 @@ __pycache__/
 datasets/
 checkpoints/
 artifacts/
+
+# Local media components and production descriptions
+/media/*
+!/media/index.html
