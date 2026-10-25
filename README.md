@@ -15,7 +15,7 @@ Start with one Windows machine, one Linux machine, and one project. Validate usa
 
 ## Visual walkthrough
 
-[Open the visual walkthrough](media/index.html): a self-contained page with the looping animation and project-by-model token diagram. Download or clone the repository, then open `media/index.html` in a browser; no server or additional files are needed.
+[Open the visual walkthrough](media/index.html): a self-contained page with the looping animation and project-to-model token Sankey diagram. Download or clone the repository, then open `media/index.html` in a browser; no server or additional files are needed.
 
 The visuals use illustrative data; they do not show collected account activity.
 
